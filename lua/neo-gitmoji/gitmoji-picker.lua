@@ -28,7 +28,7 @@ local function get_gitmoji_list() return GITMOJI_LIST end
 local function entry_maker(entry)
   return {
     value = entry,
-    display = entry.emoji .. " - " .. entry.description,
+    display = entry.emoji .. " - " .. entry.code .. " - " .. entry.description,
     ordinal = entry.description,
   }
 end

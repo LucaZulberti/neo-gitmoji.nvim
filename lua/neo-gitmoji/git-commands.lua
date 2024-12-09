@@ -1,5 +1,5 @@
 local Git = {}
 
-function Git.commit(title) vim.cmd(string.format('!git commit -m "%s"', title)) end
+function Git.commit(title) vim.cmd(string.format('!Git commit -m "%s"', title)) end
 
 return Git
